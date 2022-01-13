@@ -49,7 +49,7 @@
     <div class="container d-flex align-items-center justify-content-between">
 
       <div class="logo">
-        <h1 class="text-light"><a href="index.html"> <span> <img src="static/assets/img/logo2.png" ></span></a></h1>
+        <h1 class="text-light"><a href="{{ url_for('index') }}"> <span> <img src="static/assets/img/logo2.png" ></span></a></h1>
 
         <!-- Uncomment below if you prefer to use an image logo -->
         <!-- <a href="index.html"><img src="static/assets/img/logo.png" alt="" class="img-fluid"></a>-->
@@ -85,6 +85,7 @@ function googleTranslateElementInit() {
           </li>
            <li><a class="nav-link scrollto" href="#contact" style="font-size: 22px;">Contact Us</a></li>
           <li><a class="getstarted scrollto" target="_blank" href="static/period-tracker-gh-pages/index.html" style="font-size: 20px;">Period Tracker</a></li>
+          <li><a class="getstarted scrollto" target="_blank"href="{{ url_for('edu') }}" style="font-size: 20px;">Sex-ed</a></li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav><!-- .navbar -->

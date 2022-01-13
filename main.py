@@ -41,5 +41,58 @@ def teenage():
 def pregtracker():
     return render_template("pregtracker.html")
 
+
+@app.route('/edu')
+def edu():
+    return render_template("edu.html")
+
+@app.route('/puberty')
+def puberty():
+    return render_template("puberty.html")
+
+@app.route('/gender')
+def gender():
+    return render_template("gender.html")
+
+@app.route('/abuse')
+def abuse():
+    return render_template("abuse.html")
+
+@app.route('/one')
+def one():
+    return render_template("one.html")
+
+@app.route('/two')
+def two():
+    return render_template("two.html")
+
+@app.route('/three')
+def three():
+    return render_template("three.html")
+
+@app.route('/preghealth')
+def preghealth():
+    return render_template("preghealth.html")
+
+@app.route('/firsttrimister')
+def firsttrimister():
+    return render_template("firsttrimister.html")
+
+@app.route('/secondtrimister')
+def secondtrimister():
+    return render_template("secondtrimister.html")
+
+@app.route('/thirdtrimister')
+def thirdtrimister():
+    return render_template("thirdtrimister.html")
+
+@app.route('/contraceptive')
+def contraceptive():
+    return render_template("contraceptive.html")
+
+@app.route('/alternative')
+def alternative():
+    return render_template("alternative.html")
+
 if __name__ == "__main__":
     app.run()
